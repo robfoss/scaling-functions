@@ -1,9 +1,9 @@
-import {View, Text, Image} from 'react-native';
+import {View, Text} from 'react-native';
 import React from 'react';
 import PropTypes from 'prop-types';
 import style from './style';
 import UserProfileImage from '../UserProfileImage/UserProfileImage';
-import {horizontalScale} from '../../assets/scaling';
+import {horizontalScale} from '../../assets/styles/scaling';
 
 const UserStory = ({firstName, profileImage}) => {
   return (

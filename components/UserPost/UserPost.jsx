@@ -11,7 +11,7 @@ import {
   faHeart,
   faMessage,
 } from '@fortawesome/free-solid-svg-icons';
-import {horizontalScale, scaleFontSize} from '../../assets/scaling';
+import {horizontalScale, scaleFontSize} from '../../assets/styles/scaling';
 
 const UserPost = ({
   firstName,

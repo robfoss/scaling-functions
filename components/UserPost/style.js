@@ -4,7 +4,7 @@ import {
   horizontalScale,
   scaleFontSize,
   verticalScale,
-} from '../../assets/scaling';
+} from '../../assets/styles/scaling';
 
 const style = StyleSheet.create({
   userContainer: {flexDirection: 'row'},

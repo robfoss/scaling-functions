@@ -1,8 +1,12 @@
 import {StyleSheet} from 'react-native';
-import {getFontFamily} from './helper';
-import {horizontalScale, scaleFontSize, verticalScale} from '../styles/scaling';
+import {getFontFamily} from '../../assets/fonts/helper';
+import {
+  horizontalScale,
+  scaleFontSize,
+  verticalScale,
+} from '../../assets/styles/scaling';
 
-const globalStyles = StyleSheet.create({
+const style = StyleSheet.create({
   header: {
     marginLeft: horizontalScale(27),
     marginRight: horizontalScale(17),
@@ -42,4 +46,4 @@ const globalStyles = StyleSheet.create({
   },
 });
 
-export default globalStyles;
+export default style;
